@@ -12,6 +12,10 @@ body{
   justify-content: space-between;
   margin-bottom: 20px;
 }
+.app__header > h1{
+  color: #c20;
+  font-size: 2rem;
+}
 .left{
   flex: 0.9;
 }
@@ -20,8 +24,21 @@ body{
   justify-content: space-around;
   align-items: center;
 }
-
-
+.right{
+  display: flex;
+  flex-direction: column;
+}
+.right .MuiCardContent-root{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.chartjs-render-monitor{
+  width: 100%;
+  height: 300px !important;
+  padding: 10px !important;
+  
+}
 @media (max-width: 990px){
   .app{
     flex-direction: column;
