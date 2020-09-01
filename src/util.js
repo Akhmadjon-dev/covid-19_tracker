@@ -56,7 +56,7 @@ export const showDataOnMap = (data, casesType = "cases") =>
           ></div>
           <div className="info-name"> {country.country}</div>
           <div className="info-confirmed">
-            {/* {" "} there is die */}
+            {" "} there is die
             Cases: {numeral(country.cases).format("0,0")}{" "}
           </div>
           <div className="info-recovered">
