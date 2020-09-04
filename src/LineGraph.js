@@ -77,7 +77,7 @@ function LineGraph({ caseTypes = "cases" }) {
     };
     fetchData();
   }, []);
-
+// hello massage
   return (
     <div>
       <h1>Line graph data</h1>
